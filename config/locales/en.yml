@@ -1,0 +1,19 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+en:
+  hello: "Hello world"
+  promotion_rule_types:
+    product_buy_n:
+      name: Buy N product(s)
+      description: Order includes at least N specified product(s)
+  product_buy_n_rule:
+    choose_products: Choose products
+    label: "Order must contain %{select} of these products"
+    match_any: at least one
+    match_all: all
+    match_3: at least 3
+    match_8: at least 8
+    product_source:
+      group: From product group
+      manual: Manually choose
